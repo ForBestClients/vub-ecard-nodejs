@@ -1,0 +1,41 @@
+{
+  "name": "@forbestclients/vub-ecard",
+  "version": "1.0.0",
+  "description": "VUB eCard extension",
+  "keywords": [
+    "VUB",
+    "eCard",
+    "VUB payments",
+    "VUB eCard"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint"
+  },
+  "author": "For Best Clients, s.r.o. <info@forbestclients.com> (https://www.forbestclients.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/sha.js": "^2.4.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "sha.js": "^2.4.11"
+  }
+}
