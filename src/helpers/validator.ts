@@ -100,6 +100,7 @@ const validateResponse = (response: any = {}, config: ConfigOption = {}): boolea
       (!mdStatus && procReturnCode === '00')
     ) {
       if (responseData?.Response && responseData?.Response === APPROVED_RESPONSE) {
+        error = null;
         return true;
       }
     }
