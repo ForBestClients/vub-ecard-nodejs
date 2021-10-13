@@ -64,7 +64,7 @@ vub.validateResponse(POST_DATA)
 ```
  Note: you can get validation errors by calling `vub.getError()`
 
-## Partners
+## Package created by
 
 [![forbestclients.com](https://www.grandus.sk/images/forbestclients.png)](https://www.grandus.sk/images/forbestclients.png) \
 eshops, programming, consultations
