@@ -1,5 +1,7 @@
+[![vub.sk](https://user-images.githubusercontent.com/40350798/137112594-2fdc703f-5c14-4ab1-b956-f058120f0603.png)](https://www.vub.sk/en)
+
 # VUB eCard nodejs
-Package to use VUB eCard payment platform easily in nodejs application 
+Package to use [VUB eCard payment](https://www.vub.sk/en/companies-entrepreneurs/products-services/electronic-banking/ecard/) platform easily in nodejs application 
 
 ## Installation
 Using npm:
@@ -61,3 +63,8 @@ vub.generateForm([], {}, { value: 'proceed to payment' })
 vub.validateResponse(POST_DATA)
 ```
  Note: you can get validation errors by calling `vub.getError()`
+
+## Partners
+
+[![forbestclients.com](https://www.grandus.sk/images/forbestclients.png)](https://www.grandus.sk/images/forbestclients.png) \
+eshops, programming, consultations
