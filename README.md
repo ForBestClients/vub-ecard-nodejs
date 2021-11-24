@@ -66,5 +66,5 @@ vub.validateResponse(POST_DATA)
 
 ## Package created by
 
-[![forbestclients.com](https://www.grandus.sk/images/forbestclients.png)](https://www.grandus.sk/images/forbestclients.png) \
+[![forbestclients.com](https://www.grandus.sk/images/forbestclients.png)](https://www.grandus.sk) \
 eshops, programming, consultations
